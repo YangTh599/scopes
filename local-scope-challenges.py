@@ -7,15 +7,16 @@ def greet(fname):
 
 def count_vowels(word):
     count = 0
+    vowels = "aeiou"
     for char in word:
-        if char in "aeiou":
+        if char in vowels:
             count += 1
 
     return count
             
-name = "Tom"
 
-greet(name)
-count_vowels(name)
+
+greet("tim")
+count_vowels("loop")
 
 print
