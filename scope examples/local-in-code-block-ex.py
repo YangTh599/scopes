@@ -4,7 +4,7 @@ x = 10
 
 if x >5:
     y = 20
-    print(f"Inside if block, y = {y}")
+    print("Inside if block, y = "+str(y))
 
 
 
