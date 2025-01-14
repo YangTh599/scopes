@@ -17,6 +17,5 @@ def count_vowels(word):
 
 
 greet("tim")
-count_vowels("loop")
 
-print
+print(count_vowels("loop"))
